@@ -1,0 +1,47 @@
+.dog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.dog-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+
+.dog-card:hover {
+    transform: translateY(-5px);
+}
+
+.dog-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.dog-info {
+    padding: 15px;
+}
+
+.dog-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.dog-breed {
+    font-size: 1.2em;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .dog-card {
+        max-width: 90%;
+    }
+}
