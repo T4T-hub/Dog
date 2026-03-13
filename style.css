@@ -1,47 +1,26 @@
-.dog-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    background-color: #f9f9f9;
+.hero {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
 }
 
-.dog-card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    max-width: 300px;
-    transition: transform 0.3s;
+.hero img {
+  width: 950px;
 }
 
-.dog-card:hover {
-    transform: translateY(-5px);
+.tekst {
+  max-width: 400px;
 }
 
-.dog-img {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.tekst h2 {
+  margin-top: 0;
 }
 
-.dog-info {
-    padding: 15px;
-}
-
-.dog-name {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-}
-
-.dog-breed {
-    font-size: 1.2em;
-    color: #666;
-}
-
-@media (max-width: 768px) {
-    .dog-card {
-        max-width: 90%;
-    }
+.download {
+  display: inline-block;
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
 }
