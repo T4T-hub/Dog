@@ -47,6 +47,21 @@ a {
   color: #1f3c88;
 }
 
+
+nieuuwe code
+.logo img {
+  height: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
 .main-nav {
   display: flex;
   gap: 24px;
