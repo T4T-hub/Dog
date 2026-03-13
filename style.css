@@ -43,18 +43,17 @@ a {
 
 
 
-
-
 .logo img {
   height: 40px;
-  with: 40px:
+  width: auto;
+  display: block;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
-
 
 
 
